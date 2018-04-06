@@ -20,7 +20,7 @@ namespace Multas.Models
         public virtual DbSet<Multas> Multas { get; set; }
 
         //nao esquecer de ir ao web.config criar uma refencia ah localizacao da bd
-        //consala de gerenciador de pacote -> Enable-Migrations -EnableAutomaticMigrations -> Update-Database 
+        //consola de gerenciador de pacote -> Enable-Migrations -EnableAutomaticMigrations -> Update-Database 
 
     }
 }
